@@ -1,0 +1,8 @@
+name: arran.in-test
+static_sites:
+- environment_slug: html
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: arrfree/arran.in-test
+  name: arran.in-test
